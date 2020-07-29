@@ -1,4 +1,4 @@
-import React from "react";
+import React from "../../web/node_modules/react";
 import Images from "./Images";
 
 class Game extends React.Component {

@@ -52,7 +52,7 @@
 }
 
 .image-blank {
-  background: url("./Components/Images/onepiece.png") !important;
+  background: url("../../shared/Components/Images/onepiece.png") !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center !important;

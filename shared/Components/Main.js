@@ -1,4 +1,4 @@
-import React from "react";
+import React from "../../web/node_modules/react";
 import Login from "./Login";
 import Game from "./Game";
 import Navbar from "./Navbar";
