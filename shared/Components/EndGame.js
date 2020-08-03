@@ -1,4 +1,4 @@
-import React from "../../web/node_modules/react";
+import React from "../../node_modules/react";
 import { messages } from "./messages";
 
 class EndGame extends React.Component {

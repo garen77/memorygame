@@ -1,4 +1,4 @@
-import React from "../../web/node_modules/react";
+import React from "../../node_modules/react";
 import { images } from "./Images/index";
 
 class Images extends React.Component {

@@ -1,9 +1,10 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const commonPaths = require('./paths');
 var path = require('path');
 module.exports = {
-    entry : './src/index.js',
+    entry : commonPaths.entryPath,
     output : {
-        path : path.resolve(__dirname , 'dist'),
+        path : commonPaths.outputPath,
         filename: 'index_bundle.js'
     },    
     module: {
@@ -35,7 +36,7 @@ module.exports = {
       plugins: [
         new HtmlWebpackPlugin(
             {
-                template: "./public/index.html"
+                template: commonPaths.templatePath
              })
         ],
         devServer: {
