@@ -1,5 +1,5 @@
 import React from "react";
-import { images } from "./Images/index";
+import { images } from "../../../shared/Components/Images/index";
 
 class Images extends React.Component {
   characters = [];

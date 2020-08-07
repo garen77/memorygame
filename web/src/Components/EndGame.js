@@ -1,5 +1,5 @@
 import React from "react";
-import { messages } from "../../..shared/Components/messages";
+import { messages } from "../../../shared/Components/messages";
 
 class EndGame extends React.Component {
   handleClick = () => {
