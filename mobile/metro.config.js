@@ -4,17 +4,14 @@
  *
  * @format
  */
-const path = require('path')
+const path = require('path');
 
 const extraNodeModules = {
-  'shared': path.resolve(__dirname + '/../shared'),
+  shared: path.resolve(__dirname + '/../shared'),
 };
-const watchFolders = [
-  path.resolve(__dirname + '/../shared')
-];
+const watchFolders = [path.resolve(__dirname + '/../shared')];
 
 module.exports = {
-  
   transformer: {
     getTransformOptions: async () => ({
       transform: {
@@ -22,9 +19,9 @@ module.exports = {
         inlineRequires: false,
       },
     }),
-  }, 
-  resolver: {
-    extraNodeModules
   },
-  watchFolders
+  resolver: {
+    extraNodeModules,
+  },
+  watchFolders,
 };

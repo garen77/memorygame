@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react';
 
+import {StyleSheet, Text, View, Image} from 'react-native';
 
 class Login extends React.Component {
   state = {};
 
   handleChange = (e) => {
-    this.setState({ name: e.target.value });
+    this.setState({name: e.target.value});
   };
   handleClick = (e) => {
     e.preventDefault();
@@ -13,6 +14,9 @@ class Login extends React.Component {
   };
   render() {
     return (
+      <View style={styles.container}>
+
+      </View>
       <div className="wrapper">
         <div className="login">
           <form>
@@ -39,3 +43,22 @@ class Login extends React.Component {
 }
 
 export default Login;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#171f24',
+    justifyContent: "center",
+    alignItems: 'center',
+  },
+  login: {
+    display: flex,
+    justifyContent: "center",
+    alignItems: "center",
+    height: "60vh",
+    width: "40vw",
+    textAlign: "center",
+    boxShadow: "6px 6px 6px gray",
+    background: white,
+  }
+});
