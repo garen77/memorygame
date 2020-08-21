@@ -15,7 +15,9 @@ class Login extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-
+        <View>
+          
+        </View>
       </View>
       <div className="wrapper">
         <div className="login">
